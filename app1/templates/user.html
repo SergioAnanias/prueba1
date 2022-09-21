@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{%block content%}
+
+<h3>Información de usuario:</h3>
+<ul>
+    <li>{{ nombre }}</li>
+    <li>{{ apellidos }}</li>
+    <li>{{ email }}</li>
+    <li>{{ telefono }}</li>
+    <li>{{ laboral }}</li>
+    <li>{{ profesion }}</li>
+</ul>
+<a href="/" class="btn btn-primary">Volver</a>
+{%endblock%}
