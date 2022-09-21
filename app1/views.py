@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
 def index(request):
@@ -12,7 +13,21 @@ def userinfo(request):
         'laboral':'Trabajando',
         'profesion':'Desarrollador'
     }
-    return render(request,'user.html',context)
+    return HttpResponse(f"""
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"></script>
+    <div class="container">
+    <h3>Información de usuario:</h3>
+        <ul>
+            <li>{ context['nombre']}</li>
+            <li>{ context['apellidos']}</li>
+            <li>{ context['email']}</li>
+            <li>{ context['laboral']}</li>
+            <li>{ context['telefono']}</li>
+            <li>{ context['profesion'] }</li>
+        </ul>
+        <a href="/" class="btn btn-primary">Volver</a>
+        </div>""")
 
 def toys(request):
     context={
