@@ -19,25 +19,22 @@ def toys(request):
         'titulo':'Juguetes',
         'productos':[
             {
-                'nombre':'nombre',
-                'precio':'precio',
+                'nombre':'Robot',
+                'precio':'45990',
                 'descripcion':'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis ex sed repudiandae neque asperiores nesciunt, dolore unde nam ut, harum, nostrum labore eos modi ipsam debitis maiores tempore rerum?',
-                'precio':'precio',
-                'uri':'uri'
+                'uri':'img/juguete1.webp'
             },
             {
-                'nombre':'nombre',
-                'precio':'precio',
+                'nombre':'Restaurant',
+                'precio':'30990',
                 'descripcion':'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis ex sed repudiandae neque asperiores nesciunt, dolore unde nam ut, harum, nostrum labore eos modi ipsam debitis maiores tempore rerum?',
-                'precio':'precio',
-                'uri':'uri'
+                'uri':'img/juguete2.webp'
             },
             {
-                'nombre':'nombre',
-                'precio':'precio',
+                'nombre':'Castillo',
+                'precio':'10990',
                 'descripcion':'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis ex sed repudiandae neque asperiores nesciunt, dolore unde nam ut, harum, nostrum labore eos modi ipsam debitis maiores tempore rerum?',
-                'precio':'precio',
-                'uri':'uri'
+                'uri':'img/juguete3.webp'
             }
         ]
     }
@@ -48,25 +45,22 @@ def clothes(request):
         'titulo':'Ropa',
         'productos':[
             {
-                'nombre':'nombre',
-                'precio':'precio',
+                'nombre':'Poleron Standard',
+                'precio':'10990',
                 'descripcion':'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis ex sed repudiandae neque asperiores nesciunt, dolore unde nam ut, harum, nostrum labore eos modi ipsam debitis maiores tempore rerum?',
-                'precio':'precio',
-                'uri':'uri'
+                'uri':'img/ropa1.jfif'
             },
             {
-                'nombre':'nombre',
-                'precio':'precio',
+                'nombre':'Poleron Friends',
+                'precio':'15990',
                 'descripcion':'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis ex sed repudiandae neque asperiores nesciunt, dolore unde nam ut, harum, nostrum labore eos modi ipsam debitis maiores tempore rerum?',
-                'precio':'precio',
-                'uri':'uri'
+                'uri':'img/ropa2.jfif'
             },
             {
-                'nombre':'nombre',
-                'precio':'precio',
+                'nombre':'Poleron Tommy Hilfigel',
+                'precio':'14990',
                 'descripcion':'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis ex sed repudiandae neque asperiores nesciunt, dolore unde nam ut, harum, nostrum labore eos modi ipsam debitis maiores tempore rerum?',
-                'precio':'precio',
-                'uri':'uri'
+                'uri':'img/ropa3.jfif'
             }
         ]
     }
